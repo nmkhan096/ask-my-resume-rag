@@ -1,0 +1,13 @@
+tqdm
+notebook
+openai
+qdrant-client
+fastembed>=1.14.2
+python-dotenv
+ipywidgets
+pandas
+scikit-learn
+requests
+streamlit
+sentence-transformers
+seaborn

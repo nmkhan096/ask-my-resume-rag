@@ -1,0 +1,135 @@
+[
+  {
+    "id": "ae0142cf-58e4-408a-b2c3-950b9864f8e9",
+    "text": "Work Experience\nSecuriti, Karachi, Pakistan\t11/2024 – Current\nData Scientist",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "81b009b4-ca83-4f13-8549-684bceb6d767",
+    "text": "Developed AI and Machine Learning solutions to process sensitive data securely, managing the full ML lifecycle from data collection and preparation to model training, evaluation, and production-readiness.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "e57bac5c-03ec-41a4-9335-9ed4737640a7",
+    "text": "Built a CNN-based model to detect the header row location within semi-structured tabular files leveraging sentence embeddings and cosine similarity, achieving 96% accuracy, <250ms inference latency, and a broader context window compared to the previous system.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "3e1e2fd4-45c5-47dd-b4e6-f68835f53f6d",
+    "text": "Integrated PyTorch models into a Java-based production pipeline for performance testing, collaborating closely with engineering teams to ensure seamless deployment.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "1eceaa59-8ffd-44fc-bc14-e5c5f49e1a1a",
+    "text": "Fine-tuned LLaMA 3 using PEFT (LoRA) to classify personal data (PD) types of columns in structured tables, achieving ~92% accuracy across 15+ PD types, and enabling classification of newly added PD types during inference.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "d6f1b6ab-ebdb-4183-8a7e-482de71e7d81",
+    "text": "Iteratively improved model accuracy through prompt-formatted instructions and data augmentation techniques, utilizing AI copilots like Claude Code to automate data transformations.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "464e5bd1-44cc-4d1a-b791-9390254c1281",
+    "text": "Afiniti Software Solutions Ltd., Remote\t02/2020 – 10/2024\nData Scientist II, Artificial Intelligence Team\t05/2022 – 10/2024\nData Scientist, Artificial Intelligence Team\t05/2021 – 05/2022\nJunior Data Scientist, Artificial Intelligence Team\t02/2020 – 05/2021",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "f6fce825-d0ec-474e-b869-948eaed8b877",
+    "text": "Optimized call center interactions using machine learning techniques like Decision Trees and performance metrics to estimate customer lifetime value and agent impact, generating over $1 million in revenue per month for SKY UK.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "3f5076d2-31a2-4892-a325-aafeb7706e00",
+    "text": "Conducted extensive grid search experiments comprising of 2000+ models to find optimal hyper parameters.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "0040e364-af38-408f-b5a3-d8345816246f",
+    "text": "Improved the efficiency of the ML pipeline by implementing strategies to reduce grid search time by 50%, and adding features to streamline and standardize the process of model logging.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "eeb82f36-2c6d-4791-9e3b-d1d43b99271f",
+    "text": "Designed interactive dashboards using R and Python, resulting in streamlined tracking and visualization of KPIs.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "e55d14ea-af27-48cf-94b9-1d449312be80",
+    "text": "Conducted real-time production monitoring using MySQL, leading to improved data quality for decision-making.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "0979812f-b663-47d7-8a0b-22af8c76fdf1",
+    "text": "Used gradient-boosted decision trees (e.g., LightGBM) for predictive revenue forecasting and customer churn models.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "cf285c89-0f12-4b8d-9346-874d3f7a8726",
+    "text": "Trained 10+ members across three clients on the ML pipeline, R programming and client business, contributing to an increase in project efficiency.",
+    "metadata": {
+      "section": "Work Experience"
+    }
+  },
+  {
+    "id": "ca65827f-12d4-47be-8278-87f3ab2cbb1a",
+    "text": "End-to-end PySpark data pipeline to process large-scale taxi trip data. Used Spark local mode for prototyping and deployed the final pipeline on a single-node Dataproc cluster on GCP. Ingested Parquet-formatted data from GCS, standardized schemas, and wrote monthly aggregated metrics to BigQuery for reporting and analysis.",
+    "metadata": {
+      "section": "Projects"
+    }
+  },
+  {
+    "id": "79b0c7df-f902-4ecd-8c17-32ba8d729e34",
+    "text": "Machine Learning Pipeline Automation: Deployed an automated, end-to-end machine learning pipeline in R, encompassing data preprocessing, model training, validation, and deployment phases, greatly enhancing productivity.",
+    "metadata": {
+      "section": "Projects"
+    }
+  },
+  {
+    "id": "13e1b5ed-b8c4-4467-b218-5ed708d2081b",
+    "text": "Skills\nProgramming: Python, R, Java, SQL, Bash\nData Engineering & MLOps: Spark, Docker, MLflow, Git, GCP\nMachine Learning & Modeling: Probability & Statistics, Deep Learning, LLM fine-tuning, Feature Engineering, Model Evaluation, Data Visualization (ggplot, Streamlit, Tableau)\nLanguages: English (C2), Urdu (mother tongue)",
+    "metadata": {
+      "section": "Skills"
+    }
+  },
+  {
+    "id": "cae27263-b9ea-443e-91cf-6eacc852dbd2",
+    "text": "Education\nNational University of Sciences and Technology, Islamabad, Pakistan\t2015 – 2019\nB.E. Electrical Engineering",
+    "metadata": {
+      "section": "Education"
+    }
+  },
+  {
+    "id": "6997daaa-6c04-4f95-84f8-000586c93ed0",
+    "text": "Courses: Machine Learning, Probability & Statistics, Data Structures & Algorithms, Object-Oriented Programming",
+    "metadata": {
+      "section": "Education"
+    }
+  }
+]

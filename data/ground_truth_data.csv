@@ -1,0 +1,96 @@
+question,section,doc_id
+What is your current job title and where do you work?,Work Experience,ae0142cf-58e4-408a-b2c3-950b9864f8e9
+Can you tell me about the location of your current workplace?,Work Experience,ae0142cf-58e4-408a-b2c3-950b9864f8e9
+When did you start your current position?,Work Experience,ae0142cf-58e4-408a-b2c3-950b9864f8e9
+Are you currently working as a Data Scientist?,Work Experience,ae0142cf-58e4-408a-b2c3-950b9864f8e9
+What company are you employed with at the moment?,Work Experience,ae0142cf-58e4-408a-b2c3-950b9864f8e9
+Can you describe the type of solutions you developed related to AI and Machine Learning?,Work Experience,81b009b4-ca83-4f13-8549-684bceb6d767
+What was your role in managing the lifecycle of machine learning projects?,Work Experience,81b009b4-ca83-4f13-8549-684bceb6d767
+How did you ensure the security of sensitive data during your work?,Work Experience,81b009b4-ca83-4f13-8549-684bceb6d767
+What tasks did you perform in the data collection and preparation phases?,Work Experience,81b009b4-ca83-4f13-8549-684bceb6d767
+Can you elaborate on your experience with model training and evaluation in your projects?,Work Experience,81b009b4-ca83-4f13-8549-684bceb6d767
+Can you describe the main objective of the model you developed for detecting header rows in tabular files?,Work Experience,e57bac5c-03ec-41a4-9335-9ed4737640a7
+What techniques or methods did you use to achieve the accuracy of 96% in your model?,Work Experience,e57bac5c-03ec-41a4-9335-9ed4737640a7
+How does your model's inference latency of under 250ms compare to prior systems you have worked with?,Work Experience,e57bac5c-03ec-41a4-9335-9ed4737640a7
+Can you explain the significance of using sentence embeddings in your CNN-based model?,Work Experience,e57bac5c-03ec-41a4-9335-9ed4737640a7
+What improvements in context understanding does your model offer over the previous system?,Work Experience,e57bac5c-03ec-41a4-9335-9ed4737640a7
+Can you describe a project where you worked with PyTorch models?,Work Experience,3e1e2fd4-45c5-47dd-b4e6-f68835f53f6d
+How did you contribute to performance testing in your previous role?,Work Experience,3e1e2fd4-45c5-47dd-b4e6-f68835f53f6d
+What was your experience collaborating with engineering teams in your last job?,Work Experience,3e1e2fd4-45c5-47dd-b4e6-f68835f53f6d
+Can you explain your role in deploying models within a production pipeline?,Work Experience,3e1e2fd4-45c5-47dd-b4e6-f68835f53f6d
+What challenges did you face when integrating different technologies like PyTorch and Java?,Work Experience,3e1e2fd4-45c5-47dd-b4e6-f68835f53f6d
+Can you describe the approach you took to improve the performance of LLaMA 3 for data classification?,Work Experience,1eceaa59-8ffd-44fc-bc14-e5c5f49e1a1a
+What specific techniques or methods did you use to achieve the classification results mentioned in your experience?,Work Experience,1eceaa59-8ffd-44fc-bc14-e5c5f49e1a1a
+How did you ensure the model could adapt to classify new data types during inference?,Work Experience,1eceaa59-8ffd-44fc-bc14-e5c5f49e1a1a
+What was the significance of reaching approximately 92% accuracy in your project?,Work Experience,1eceaa59-8ffd-44fc-bc14-e5c5f49e1a1a
+Could you explain the process of fine-tuning LLaMA 3 in the context of your work on personal data classification?,Work Experience,1eceaa59-8ffd-44fc-bc14-e5c5f49e1a1a
+Can you describe how you improved model accuracy in your previous role?,Work Experience,d6f1b6ab-ebdb-4183-8a7e-482de71e7d81
+What techniques did you use for data augmentation?,Work Experience,d6f1b6ab-ebdb-4183-8a7e-482de71e7d81
+How did you incorporate prompt-formatted instructions into your work?,Work Experience,d6f1b6ab-ebdb-4183-8a7e-482de71e7d81
+Can you explain your experience with AI copilots like Claude Code?,Work Experience,d6f1b6ab-ebdb-4183-8a7e-482de71e7d81
+What was the impact of automating data transformations on your projects?,Work Experience,d6f1b6ab-ebdb-4183-8a7e-482de71e7d81
+Can you describe your career progression at Afiniti Software Solutions Ltd.?,Work Experience,464e5bd1-44cc-4d1a-b791-9390254c1281
+What was your role within the Artificial Intelligence Team at Afiniti?,Work Experience,464e5bd1-44cc-4d1a-b791-9390254c1281
+How long have you worked at Afiniti Software Solutions Ltd.?,Work Experience,464e5bd1-44cc-4d1a-b791-9390254c1281
+In which capacity did you contribute to the Artificial Intelligence Team?,Work Experience,464e5bd1-44cc-4d1a-b791-9390254c1281
+Can you explain the differences in responsibilities you experienced from Junior Data Scientist to Data Scientist II?,Work Experience,464e5bd1-44cc-4d1a-b791-9390254c1281
+How did you utilize machine learning techniques in your previous role at SKY UK?,Work Experience,f6fce825-d0ec-474e-b869-948eaed8b877
+Can you describe your experience with Decision Trees in optimizing interactions?,Work Experience,f6fce825-d0ec-474e-b869-948eaed8b877
+What methods did you use to estimate customer lifetime value and agent impact?,Work Experience,f6fce825-d0ec-474e-b869-948eaed8b877
+What was the financial impact of your optimization efforts at SKY UK?,Work Experience,f6fce825-d0ec-474e-b869-948eaed8b877
+How did your work contribute to generating revenue at the call center?,Work Experience,f6fce825-d0ec-474e-b869-948eaed8b877
+Can you describe a project where you needed to optimize model performance?,Work Experience,3f5076d2-31a2-4892-a325-aafeb7706e00
+What methods did you use to experiment with different models in your previous role?,Work Experience,3f5076d2-31a2-4892-a325-aafeb7706e00
+How did you determine the number of models to test during your experiments?,Work Experience,3f5076d2-31a2-4892-a325-aafeb7706e00
+Can you share your approach to identifying the best hyperparameters for a model?,Work Experience,3f5076d2-31a2-4892-a325-aafeb7706e00
+What were some challenges you faced while conducting your grid search experiments?,Work Experience,3f5076d2-31a2-4892-a325-aafeb7706e00
+Can you describe a time when you worked on improving machine learning processes?,Work Experience,0040e364-af38-408f-b5a3-d8345816246f
+What specific strategies did you implement to enhance the efficiency of the machine learning pipeline?,Work Experience,0040e364-af38-408f-b5a3-d8345816246f
+How did you approach reducing the grid search time in your project?,Work Experience,0040e364-af38-408f-b5a3-d8345816246f
+What was the impact of your changes on the overall model logging process?,Work Experience,0040e364-af38-408f-b5a3-d8345816246f
+Can you discuss a challenge you faced while working on the ML pipeline and how you addressed it?,Work Experience,0040e364-af38-408f-b5a3-d8345816246f
+Can you describe your experience with creating visual tools for data tracking?,Work Experience,eeb82f36-2c6d-4791-9e3b-d1d43b99271f
+What programming languages did you use in your previous role to enhance data visualization?,Work Experience,eeb82f36-2c6d-4791-9e3b-d1d43b99271f
+How did your work impact the way KPIs were tracked in your last job?,Work Experience,eeb82f36-2c6d-4791-9e3b-d1d43b99271f
+Can you explain any challenges you faced while designing interactive dashboards?,Work Experience,eeb82f36-2c6d-4791-9e3b-d1d43b99271f
+What was the main goal of the dashboards you designed in your previous position?,Work Experience,eeb82f36-2c6d-4791-9e3b-d1d43b99271f
+What kind of monitoring did you conduct in your previous role?,Work Experience,e55d14ea-af27-48cf-94b9-1d449312be80
+How did your work with MySQL impact data quality?,Work Experience,e55d14ea-af27-48cf-94b9-1d449312be80
+Can you describe the type of decisions that were influenced by data quality improvements?,Work Experience,e55d14ea-af27-48cf-94b9-1d449312be80
+What tools or technologies did you use to support your monitoring efforts?,Work Experience,e55d14ea-af27-48cf-94b9-1d449312be80
+In what ways did you measure the success of your real-time production monitoring?,Work Experience,e55d14ea-af27-48cf-94b9-1d449312be80
+Can you describe your experience with decision tree algorithms in your previous role?,Work Experience,0979812f-b663-47d7-8a0b-22af8c76fdf1
+What types of models did you work on to predict revenue and manage customer retention?,Work Experience,0979812f-b663-47d7-8a0b-22af8c76fdf1
+How did you utilize machine learning techniques for forecasting in your past projects?,Work Experience,0979812f-b663-47d7-8a0b-22af8c76fdf1
+Can you explain the significance of using gradient-boosted decision trees in your work?,Work Experience,0979812f-b663-47d7-8a0b-22af8c76fdf1
+What insights were you able to gain from the predictive models you developed?,Work Experience,0979812f-b663-47d7-8a0b-22af8c76fdf1
+Can you describe your experience training team members in machine learning processes?,Work Experience,cf285c89-0f12-4b8d-9346-874d3f7a8726
+"How many individuals did you train, and how did you organize the training sessions?",Work Experience,cf285c89-0f12-4b8d-9346-874d3f7a8726
+What key topics did you cover when training others on the ML pipeline?,Work Experience,cf285c89-0f12-4b8d-9346-874d3f7a8726
+Can you share how your training contributed to improvements in project efficiency?,Work Experience,cf285c89-0f12-4b8d-9346-874d3f7a8726
+Were there specific clients you worked with while conducting this training?,Work Experience,cf285c89-0f12-4b8d-9346-874d3f7a8726
+Can you describe a recent project where you worked with large-scale data processing?,Projects,ca65827f-12d4-47be-8278-87f3ab2cbb1a
+What technologies did you use to implement the data pipeline in your last project?,Projects,ca65827f-12d4-47be-8278-87f3ab2cbb1a
+How did you handle data ingestion and schema standardization in your project?,Projects,ca65827f-12d4-47be-8278-87f3ab2cbb1a
+Can you explain the significance of using Dataproc for your data pipeline deployment?,Projects,ca65827f-12d4-47be-8278-87f3ab2cbb1a
+What were the main objectives of the project you completed involving taxi trip data?,Projects,ca65827f-12d4-47be-8278-87f3ab2cbb1a
+Can you describe a project where you implemented a machine learning solution?,Projects,79b0c7df-f902-4ecd-8c17-32ba8d729e34
+What steps did you take to enhance productivity in your machine learning project?,Projects,79b0c7df-f902-4ecd-8c17-32ba8d729e34
+How did you manage the different phases of your machine learning pipeline?,Projects,79b0c7df-f902-4ecd-8c17-32ba8d729e34
+What programming language did you use for your machine learning automation project?,Projects,79b0c7df-f902-4ecd-8c17-32ba8d729e34
+Can you explain the significance of automating the machine learning pipeline in your work?,Projects,79b0c7df-f902-4ecd-8c17-32ba8d729e34
+What programming languages are you proficient in?,Skills,13e1b5ed-b8c4-4467-b218-5ed708d2081b
+Can you describe your experience with data engineering and MLOps tools?,Skills,13e1b5ed-b8c4-4467-b218-5ed708d2081b
+What machine learning techniques do you have experience with?,Skills,13e1b5ed-b8c4-4467-b218-5ed708d2081b
+How do you utilize data visualization tools in your work?,Skills,13e1b5ed-b8c4-4467-b218-5ed708d2081b
+What languages are you fluent in and at what levels?,Skills,13e1b5ed-b8c4-4467-b218-5ed708d2081b
+Can you tell me about the degree you pursued at university?,Education,cae27263-b9ea-443e-91cf-6eacc852dbd2
+What major did you choose during your time at National University of Sciences and Technology?,Education,cae27263-b9ea-443e-91cf-6eacc852dbd2
+When did you graduate with your Bachelor's degree in Electrical Engineering?,Education,cae27263-b9ea-443e-91cf-6eacc852dbd2
+Where did you obtain your electrical engineering degree?,Education,cae27263-b9ea-443e-91cf-6eacc852dbd2
+What institution did you attend for your higher education in engineering?,Education,cae27263-b9ea-443e-91cf-6eacc852dbd2
+What courses did you take that are related to machine learning?,Education,6997daaa-6c04-4f95-84f8-000586c93ed0
+Can you list some of the subjects you studied that involved data structures?,Education,6997daaa-6c04-4f95-84f8-000586c93ed0
+Which programming concepts did you learn in your education?,Education,6997daaa-6c04-4f95-84f8-000586c93ed0
+What foundational courses did you take in statistics?,Education,6997daaa-6c04-4f95-84f8-000586c93ed0
+How did your studies in object-oriented programming influence your understanding of software development?,Education,6997daaa-6c04-4f95-84f8-000586c93ed0
