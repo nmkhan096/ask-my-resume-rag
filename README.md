@@ -8,6 +8,12 @@ An interactive Q&A app that lets you query your resume using LLMs.
 - **LLM**: Groq OpenAI-compatible API
 - **UI**: Streamlit
 
+Features Included:
+- Section filtering (multiselect)
+- Adjustable retriever top_k slider
+- “Sources Used” expander per answer
+- User rating on each response (option to store for fine-tuning)
+
 ## Setup Instructions
 
 ### 1. Clone the repo
