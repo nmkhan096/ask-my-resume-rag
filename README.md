@@ -1,40 +1,59 @@
+# Ask My Resume
 
-Current Setup:
-- Vector DB: Qdrant (via qdrant_client)
-- Embedding: fastembed (Jina model)
-- LLM: Groq OpenAI-compatible API (LLaMA 3)
-- Logic: Custom vector_search(), build_prompt(), llm(), rag()
-- UI: Streamlit
+An interactive Q&A app that lets you query your resume using LLMs.
 
+### Setup:
+- **Vector DB**: Qdrant
+- **Embedding**: Fastembed
+- **LLM**: Groq OpenAI-compatible API
+- **UI**: Streamlit
 
-`rag_pipeline/parser.py` CLI Usage:
+## Setup Instructions
+
+### 1. Clone the repo
+```bash
+git clone https://github.com/nmkhan096/ask-my-resume.git
+cd ask-my-resume
 ```
-python rag_pipeline/parser.py "data/Nida_Khan_Resume.docx" \
+### 2. Install dependencies
+```
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+```
+### 3. Add .env file
+```
+# .env
+GROQ_API_KEY=your_api_key
+```
+
+### 4. Run Qdrant with Docker
+```
+docker run -p 6333:6333 -p 6334:6334 \
+   -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
+   qdrant/qdrant
+```
+
+###  5. Parse your resume
+Add your `.docx` resume to the `data/` folder
+Run the parser script:
+```
+python rag_pipeline/parser.py "data/Resume.docx" \
     --sections "Work Experience" "Projects" "Education" "Skills" \
     --output "data/resume_chunks.json"
 ```
-You can also import and use it programmatically:
+You can also import and use it in a notebook or script:
 ```
 from rag_pipeline.parser import parse_resume_to_chunks
 
-chunks = parse_resume_to_chunks("data/Nida_Khan_Resume.docx", ["Work Experience", "Projects"])
+chunks = parse_resume_to_chunks("data/Resume.docx", ["Work Experience", "Projects"])
 ```
 
-
-### rag_pipeline/qdrant_setup.py with CLI support
-`rag_pipeline/qdrant_setup.py` — only run ONCE to ingest data
-
-usage:
+###  6. Load vectors into Qdrant
+only run ONCE from the terminal to ingest data
 ```
 python rag_pipeline/qdrant_setup.py \
   --input data/resume_chunks.json
-```
-
-Just run once from the terminal or a notebook:
-
-### not needed
-```
-python rag_pipeline/qdrant_setup.py
 ```
 OR in a notebook:
 ```
@@ -44,10 +63,14 @@ qdrant_setup.ingest_documents(docs)
 qdrant_setup.create_section_index()
 ```
 
+## RAG
 
-### RAG
+Run the Streamlit app
+```
+streamlit run app.py
+```
 
-run in test script
+or run in test script
 ```
 from rag_pipeline.rag import rag
 
