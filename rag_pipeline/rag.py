@@ -53,12 +53,12 @@ If the answer is not found in the context, reply with "Not available in the resu
 
 # llm client
 from openai import OpenAI
-from .config import API_KEY, LLM_MODEL
+from .config import API_KEY, LLM_MODEL_DEFAULT
 
 groq_client = OpenAI(api_key=API_KEY, 
                      base_url="https://api.groq.com/openai/v1")
 
-def llm(prompt, llm_model="llama-3.3-70b-versatile"):
+def llm(prompt, llm_model=LLM_MODEL_DEFAULT):
     response = groq_client.chat.completions.create(
         model=llm_model,  #LLM_MODEL,
         messages=[{"role": "user", "content": prompt}]
@@ -66,8 +66,7 @@ def llm(prompt, llm_model="llama-3.3-70b-versatile"):
     return response.choices[0].message.content
 
 
-def rag(query, sections=["Work Experience", "Projects", "Skills", "Education"], llm_model="llama-3.3-70b-versatile"):
-    print("model used: ", llm_model)
-    search_results = vector_search(query, sections=sections)
+def rag(query, sections=["Work Experience", "Projects", "Skills", "Education"], llm_model=LLM_MODEL_DEFAULT, limit=5):
+    search_results = vector_search(query, sections=sections, limit=limit)
     prompt = build_prompt(query, search_results)
     return llm(prompt, llm_model=llm_model)

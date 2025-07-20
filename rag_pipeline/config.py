@@ -10,7 +10,7 @@ API_KEY = os.environ.get("GROQ_API_KEY")
 QDRANT_HOST = "http://localhost:6333"
 
 # LLM model name
-LLM_MODEL = "llama-3.3-70b-versatile"#"llama-3.1-8b-instant"
+LLM_MODEL_DEFAULT = "llama-3.3-70b-versatile"
 
 # Embedding model
 EMBEDDING_MODEL = "jinaai/jina-embeddings-v2-small-en"
