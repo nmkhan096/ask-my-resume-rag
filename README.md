@@ -95,6 +95,7 @@ from rag_pipeline.rag import rag
 
 print(rag("Summarise the key strengths"))
 ```
+
 ## Example Questions
 Ask questions like:
 - *“What projects show my data science skills?”*
