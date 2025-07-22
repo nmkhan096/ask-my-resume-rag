@@ -5,9 +5,12 @@ __pycache__/
 qdrant_storage;C/
 app_memory.py
 test_rag.py
-# Streamlit
 .streamlit/
-results_llama-3.3-70b-versatile.csv
-parser.py
+results_llama-3.1-8b-instant.csv
+results_gemma2-9b-it.csv
+parser_old.py
+parser.ipynb
+rag.ipynb
+semantic_search.ipynb
 langchain_utils.py
 Resume.docx

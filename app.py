@@ -14,7 +14,7 @@ st.sidebar.header("Retriever Settings")
 section_options = ["Work Experience", "Projects", "Skills", "Education"]
 selected_sections = st.sidebar.multiselect("Filter by Section", section_options, default=section_options)
 top_k = st.sidebar.slider("Number of Chunks to Retrieve", min_value=1, max_value=5, value=5)
-model_options = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant"]
+model_options = ["llama-3.3-70b-versatile", "llama-3.1-8b-instant", "gemma2-9b-it"]
 selected_model = st.sidebar.selectbox("Select Model", model_options)
 
 # Chat Interface
