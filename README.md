@@ -1,6 +1,6 @@
 # Ask My Resume
 
-This interactive Q&A app that lets you query your resume using LLMs and vector search. It uses a a retrieval-augmented generation (RAG) pipeline to deliver contextual and grounded answers. Use this AI career assistamnt to ask questions about your resume like:
+This interactive Q&A app that lets you query your resume using LLMs and vector search. It uses a a retrieval-augmented generation (RAG) pipeline to deliver contextual and grounded answers. Use this AI career assistant to ask questions about your resume like:
 - *“What projects show my data science skills?”*
 - *“How well does my experience match this job description?”*
 - *“Summarize my strengths for a software engineering role.”*
@@ -13,7 +13,11 @@ This interactive Q&A app that lets you query your resume using LLMs and vector s
 
 ### Interface Overview:
 
-![Demo](demo/demo.gif)
+<p align="center">
+  <img src="demo/demo.gif" />
+</p>
+
+<!--![Demo](demo/demo.gif)-->
 
 Key features include:
 - A **sidebar** to:
@@ -134,7 +138,11 @@ I compared multiple LLMs on their ability to answer resume-based questions with 
 1. **Cosine Similarity**
 Embeddings (via `sentence-transformers`) were compared between the ground-truth answer (A) and the model-generated answer (A') using cosine similarity. Below is the distribution across models: 
 
-![Cosine Similarity Plot](evaluation/cosine_similarity_plot.png)
+<p align="center">
+  <img src="evaluation/cosine_similarity_plot.png" />
+</p>
+
+<!--![Cosine Similarity Plot](evaluation/cosine_similarity_plot.png)-->
 
 1. **LLM-as-a-Judge** (GPT-4o mini)
 To evaluate the quality of generated answers, I used a second LLM (`gpt-4o-mini`) as a judge, rating a handful of responses on their correctness and groundedness, from 0 to 2:
@@ -155,4 +163,4 @@ Correctness tells us if the answer is useful and appropriate **given the questio
 
 ### Summary
 
-- **Recommendation**: Use the 70b variant for accuracy-critical resume Q&A applications with 3-5 chunks limit.
+- **Recommendation**: Use the `llama-3.3-70b-versatile` variant for accuracy-critical resume Q&A applications with 3-5 chunks limit.
