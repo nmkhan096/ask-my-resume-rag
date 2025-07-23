@@ -8,10 +8,7 @@ test_rag.py
 .streamlit/
 results_llama-3.1-8b-instant.csv
 results_gemma2-9b-it.csv
-parser_old.py
-parser.ipynb
-rag.ipynb
-semantic_search.ipynb
+notebooks/*
 langchain_utils.py
 Resume.docx
 *.ipynb linguist-documentation
