@@ -161,7 +161,7 @@ Correctness tells us if the answer is useful and appropriate **given the questio
 
 > High groundedness but low correctness = bad reasoning or mismatch, RAG is **misunderstanding** the retrieved context
 
-### Summary
+### 🧠 Summary
 
 - **Retrieval** is consistent, with ~80% of relevant chunks in the top 3-5.
 - **RAG answers** show high correctness (~74% rated perfect).
