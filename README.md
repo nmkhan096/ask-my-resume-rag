@@ -139,7 +139,7 @@ I compared multiple LLMs on their ability to answer resume-based questions with 
 Embeddings (via `sentence-transformers`) were compared between the ground-truth answer (A) and the model-generated answer (A') using cosine similarity. Below is the distribution across models: 
 
 <p align="center">
-  <img src="evaluation/cosine_similarity_plot.png" />
+  <img src="evaluation/cosine_similarity_plot.png" width="50%" />
 </p>
 
 <!--![Cosine Similarity Plot](evaluation/cosine_similarity_plot.png)-->
