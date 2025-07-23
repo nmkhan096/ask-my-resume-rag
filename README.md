@@ -111,7 +111,7 @@ Evaluating a Retrieval-Augmented Generation (RAG) system requires assessing both
 
 > See evaluation/rag_evaluation.ipynb for details.
 
-### Retrieval Evaluation
+### 1. Retrieval Evaluation
 
 To assess the quality of vector-based retrieval, I used the following metrics based on the ground-truth dataset for each question:
 
@@ -131,7 +131,7 @@ The results demonstrate strong retrieval performance, particularly within the to
 | Hit@5 | 0.810 |
 | MRR@5 | 0.691 |
 
-### RAG Evaluation (LLM Response Quality)
+### 2. RAG Evaluation (LLM Response Quality)
 
 I compared multiple LLMs on their ability to answer resume-based questions with accuracy and grounding using two approaches:
 
