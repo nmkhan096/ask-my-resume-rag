@@ -1,4 +1,4 @@
-# Ask My Resume
+# 🔍 Ask My Resume
 
 This interactive Q&A app that lets you query your resume using LLMs and vector search. It uses a a retrieval-augmented generation (RAG) pipeline to deliver contextual and grounded answers. Use this AI career assistant to ask questions about your resume like:
 - *“What projects show my data science skills?”*
@@ -11,7 +11,7 @@ This interactive Q&A app that lets you query your resume using LLMs and vector s
 - **LLM**: Groq API (OpenAI-compatible API)   
 - **UI**: Streamlit
 
-### Interface Overview:
+### 🚀 Interface Overview:
 
 <p align="center">
   <img src="demo/demo.gif" />
@@ -30,7 +30,7 @@ Key features include:
   - View the **source citations** under each response
   - Rate each answer with a 👍 / 👎 feedback
     
-## Setup Instructions
+## 📦 Setup Instructions
 
 ### 1. Clone the repo
 ```bash
@@ -102,7 +102,7 @@ from rag_pipeline.rag import *
 
 print(rag("Summarise the key strengths"))
 ```
-## Evaluation
+## 📈 Evaluation
 
 Evaluating a Retrieval-Augmented Generation (RAG) system requires assessing both retrieval quality and generation quality, hence it's a two-step pipeline:
 
