@@ -5,13 +5,13 @@ This interactive Q&A app lets you query your resume using LLMs and vector search
 - *“How well does my experience match this job description?”*
 - *“Summarize my strengths for a software engineering role.”*
 
-### Tech Stack:
+### ⚙️ Tech Stack:
 - **Vector DB**: Qdrant (served via Docker)
 - **Embedding**: FastEmbed
 - **LLM**: Groq API (OpenAI-compatible API)   
 - **UI**: Streamlit
 
-### 🚀 Interface Overview:
+### 🖥️ Interface Overview:
 
 <p align="center">
   <img src="demo/demo.gif" />
@@ -19,7 +19,7 @@ This interactive Q&A app lets you query your resume using LLMs and vector search
 
 <!--![Demo](demo/demo.gif)-->
 
-Key features include:
+🚀 Key features 🚀:
 - A **sidebar** to:
   - Select the LLM model to use (
   - Filter which resume sections to search (e.g., Projects, Skills, Education)
@@ -111,7 +111,7 @@ Evaluating a Retrieval-Augmented Generation (RAG) system requires assessing both
 
 > To assess the performance of both the retrieval and RAG components, I first created a ground truth set of 95 question-answer pairs. See evaluation/rag_evaluation.ipynb for details.
 
-### 1. Retrieval Evaluation
+### 1. 🎯 Retrieval Evaluation
 
 To assess the quality of vector-based retrieval, I used the following metrics based on the ground-truth dataset for each question:
 
@@ -131,7 +131,7 @@ The results demonstrate strong retrieval performance, particularly within the to
 | Hit@5 | 0.810 |
 | MRR@5 | 0.691 |
 
-### 2. RAG Evaluation (LLM Response Quality)
+### 2.🤖 RAG Evaluation (LLM Response Quality)
 
 I compared multiple LLMs on their ability to answer resume-based questions with accuracy and grounding using two approaches:
 
