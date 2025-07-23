@@ -147,7 +147,7 @@ Embeddings (via `sentence-transformers`) were compared between the ground-truth 
 1. **LLM-as-a-Judge** (GPT-4o mini)
 To evaluate the quality of generated answers, I used a second LLM (`gpt-4o-mini`) as a judge, rating a handful of responses on their correctness and groundedness, from 0 to 2:
 
-Over 73% of responses were rated as fully correct.
+Over 74% of responses were rated as fully correct.
 
 | Score | Meaning | Count |
 | --- | --- | --- |
