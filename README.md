@@ -118,7 +118,7 @@ To assess the quality of vector-based retrieval, I used the following metrics ba
 - **Hit@K**: indicates whether the correct chunk appeared within the top-K retrieved results.
 - **MRR@5** (Mean Reciprocal Rank): reflects how high on average the correct chunk was ranked within the top k.
 
-> Metrics like Recall@k and Hit@k focus on **Retrieval accuracy** to assess whether the right chunk was in the top-k set. High retrieval accuracy ensures the LLM is grounded in the correct context, minimizing hallucinations and increasing factual precision.
+> Metrics like Recall@k and Hit@k focus on **Retrieval accuracy** to assess whether the right chunk was in the top-k set. High retrieval accuracy ensures the LLM is grounded in the correct context, minimizing hallucinations.
 
 > MRR focuses on **Ranking quality** to assess whether the most relevant doc ranked high enough to influence the LLM. A higher value improves answer quality.
 
