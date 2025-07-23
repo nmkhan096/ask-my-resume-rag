@@ -163,6 +163,6 @@ Correctness tells us if the answer is useful and appropriate **given the questio
 
 ### Summary
 
-- **Retrieval** is consistent, with ~88% of relevant chunks in the top 3-5.
+- **Retrieval** is consistent, with ~80% of relevant chunks in the top 3-5.
 - **RAG answers** show high correctness (~74% rated perfect).
 - **Recommendation**: Use the `llama-3.3-70b-versatile` variant for accuracy-critical resume Q&A applications with 3-5 chunks limit.
