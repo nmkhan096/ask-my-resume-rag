@@ -5,7 +5,7 @@ import argparse
 import json
 from qdrant_client import QdrantClient, models
 from fastembed import TextEmbedding
-from .config import qd_client, collection_name, EMBEDDING_MODEL, EMBEDDING_DIM
+from rag_pipeline.config import qd_client, collection_name, EMBEDDING_MODEL, EMBEDDING_DIM
 
 # Constants
 # EMBEDDING_DIM = 512

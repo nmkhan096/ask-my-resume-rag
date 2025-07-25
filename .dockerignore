@@ -1,0 +1,29 @@
+# Ignore Python artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore notebooks and results
+demo/
+evaluation/
+notebooks/
+*.ipynb
+*.csv
+
+# Ignore virtual environments
+.venv/
+
+# Ignore local config and secrets
+.env
+.streamlit/
+
+# Ignore Qdrant local storage (used by Docker volume anyway)
+qdrant_storage;C/
+
+# Ignore misc
+.DS_Store
+Resume.docx
+app_memory.py
+test_rag.py
+langchain_utils.py

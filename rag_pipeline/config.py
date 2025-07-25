@@ -7,7 +7,7 @@ from fastembed import TextEmbedding
 load_dotenv()
 
 API_KEY = os.environ.get("GROQ_API_KEY")
-QDRANT_HOST = "http://localhost:6333"
+QDRANT_HOST = os.getenv("QDRANT_HOST", "http://localhost:6333")
 
 # LLM model name
 LLM_MODEL_DEFAULT = "llama-3.3-70b-versatile"

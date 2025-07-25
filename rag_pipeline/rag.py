@@ -1,12 +1,8 @@
 # Vector search + LLM answer
 
-# from .vector_store import vector_search
-# from .prompt_builder import build_prompt
-# from .llm_client import llm
-
 # vector store
 from qdrant_client import models
-from .config import qd_client, collection_name, EMBEDDING_MODEL
+from rag_pipeline.config import qd_client, collection_name, EMBEDDING_MODEL
 
 def vector_search(question, sections=["Work Experience", "Projects"], limit=5):
     if isinstance(sections, str):
