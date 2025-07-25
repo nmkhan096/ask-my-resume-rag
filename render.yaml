@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: ask-my-resume
+    env: docker
+    plan: free
+    autoDeploy: true
