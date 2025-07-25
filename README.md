@@ -1,6 +1,6 @@
 # 🔍 Ask My Resume
 
-This interactive Q&A app lets you query your resume using LLMs and vector search. It uses a a retrieval-augmented generation (RAG) pipeline to deliver contextual and grounded answers. Use this AI career assistant to ask questions about your resume like:
+This interactive Q&A app lets you query your resume using LLMs and vector search. It uses a a retrieval-augmented generation (RAG) pipeline to deliver contextual and grounded answers. Upload your resume, cover letters, etc and ask the AI career assistant questions like:
 - *“What projects show my data science skills?”*
 - *“How well does my experience match this job description?”*
 - *“Summarize my strengths for a software engineering role.”*
@@ -21,7 +21,7 @@ This interactive Q&A app lets you query your resume using LLMs and vector search
 
 🚀 Key features 🚀:
 - A **sidebar** to:
-  - Select the LLM model to use (
+  - Select the LLM model to use (LLaMA 3.3 8B/70B, Gemma 9B)
   - Filter which resume sections to search (e.g., Projects, Skills, Education)
   - Adjust the number of context chunks retrieved
 
