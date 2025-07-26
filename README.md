@@ -49,17 +49,7 @@ pip install -r requirements.txt
 GROQ_API_KEY=your_api_key
 ```
 
-### 4. Run Qdrant with Docker
-To run a Qdrant instance in a Docker container, first pull the image and start the container:
-```
-docker pull qdrant/qdrant
-
-docker run -p 6333:6333 -p 6334:6334 \
-   -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
-   qdrant/qdrant
-```
-
-###  5. Parse your resume
+###  4. Parse your resume
 Add your resume (`.docx` file) to the `data/` folder and run the parser script.
 
 - from CLI:
@@ -73,6 +63,16 @@ python rag_pipeline/parser.py "data/Resume.docx" \
 from rag_pipeline.parser import parse_resume_to_chunks
 
 chunks = parse_resume_to_chunks("data/Resume.docx", ["Work Experience", "Projects"])
+```
+
+### 5. Run Qdrant with Docker
+To run a Qdrant instance in a Docker container, first pull the image and start the container:
+```
+docker pull qdrant/qdrant
+
+docker run -p 6333:6333 -p 6334:6334 \
+   -v "$(pwd)/qdrant_storage:/qdrant/storage:z" \
+   qdrant/qdrant
 ```
 
 ###  6. Load vectors into Qdrant
