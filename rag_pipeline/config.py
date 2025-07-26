@@ -1,4 +1,3 @@
-# rag_pipeline/config.py
 import os
 from dotenv import load_dotenv
 from qdrant_client import QdrantClient
@@ -8,7 +7,7 @@ load_dotenv()
 
 API_KEY = os.environ.get("GROQ_API_KEY")
 QDRANT_HOST = os.getenv("QDRANT_HOST", "http://localhost:6333")
-QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "") # config for deployment
 
 # LLM model name
 LLM_MODEL_DEFAULT = "llama-3.3-70b-versatile"
@@ -24,7 +23,3 @@ qd_client = QdrantClient(
     api_key=QDRANT_API_KEY  # Automatically None if not set
 )
 collection_name = "resume-rag"
-
-print("QDRANT_HOST: ", QDRANT_HOST)
-print("QDRANT_API_KEY: ", QDRANT_API_KEY)
-print(qd_client.get_collections())

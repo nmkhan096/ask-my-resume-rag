@@ -45,10 +45,7 @@ for i, msg in enumerate(st.session_state.messages):
                     st.markdown(f"**{j}. [{section}]** {text}")
             
             # Rating option
-            #unique_key = str(uuid.uuid4())  # generates a truly unique ID
             message_id = f"msg_{i}"
-            #current_rating = st.session_state.ratings.get(message_id, None)
-
             rating = st.radio(
                 "Rate this answer:",
                 ["👍+1", "👎-1"],
@@ -63,5 +60,29 @@ for i, msg in enumerate(st.session_state.messages):
         # TODO: Save feedback to file or database
         # save_feedback(question=user_input, answer=answer, rating=rating)
 
-st.markdown("---")
-#st.markdown("Made with using Qdrant, Groq, and Streamlit")
+# # st.markdown("---")
+# # st.markdown("Made with using Qdrant, Groq, and Streamlit")
+# st.markdown("---")
+# st.markdown("🔧 Built with [Qdrant](https://qdrant.tech), [Groq](https://groq.com/), and [Streamlit](https://streamlit.io/).")
+# st.markdown("💼 Created by [Nida M. Khan](https://github.com/nmkhan096).")
+# Spacer to push footer down
+#st.markdown("<br><br>", unsafe_allow_html=True)
+
+# # Footer
+# st.markdown("---")
+# st.markdown("""
+
+st.markdown("<hr>", unsafe_allow_html=True)
+
+col1, col2 = st.columns([4, 1])  # Adjust width ratio as needed
+
+with col1:
+    st.markdown("""
+    *Built with Qdrant, Groq, and Streamlit.*  
+    *Created by [Nida M. Khan](https://github.com/nmkhan096)*
+    """)
+
+with col2:
+    if st.button("Reset", use_container_width=True):
+        st.session_state.messages = []
+        st.session_state.ratings = {}
