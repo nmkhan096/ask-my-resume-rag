@@ -1,4 +1,4 @@
-# Dockerfile
+# Defines a custom Docker image for the app
 
 FROM python:3.10-slim
 

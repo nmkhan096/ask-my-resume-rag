@@ -1,14 +1,28 @@
+# defines how services work together
+
 services:
-  qdrant:
+  qdrant: # Starts Qdrant vector DB from the official image
     image: qdrant/qdrant
     ports:
       - "6333:6333"
       - "6334:6334"  # Optional: Qdrant web UI / metrics
     volumes:
       - qdrant_data:/qdrant/storage
-    command: python -m rag_pipeline.qdrant_setup --input data/resume.json
 
-  app:
+
+  setup: # Runs once to initialize the Qdrant DB with resume chunks
+    build: .
+    depends_on:
+      - qdrant
+    environment:
+      - QDRANT_HOST=http://qdrant:6333
+    command: >
+      bash -c "
+      sleep 10 &&
+      python -m rag_pipeline.qdrant_setup --input data/resume.json"
+    restart: "no"
+
+  app:  # Streamlit web UI app
     build: .
     ports:
       - "8501:8501"
