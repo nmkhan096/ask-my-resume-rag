@@ -6,6 +6,7 @@ services:
       - "6334:6334"  # Optional: Qdrant web UI / metrics
     volumes:
       - qdrant_data:/qdrant/storage
+    command: python -m rag_pipeline.qdrant_setup --input data/resume.json
 
   app:
     build: .

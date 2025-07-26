@@ -49,7 +49,7 @@ If the answer is not found in the context, reply with "Not available in the resu
 
 # llm client
 from openai import OpenAI
-from .config import API_KEY, LLM_MODEL_DEFAULT
+from rag_pipeline.config import API_KEY, LLM_MODEL_DEFAULT
 
 groq_client = OpenAI(api_key=API_KEY, 
                      base_url="https://api.groq.com/openai/v1")
