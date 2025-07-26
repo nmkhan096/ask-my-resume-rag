@@ -11,7 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy source code
 COPY . .
 
-# Use environment variable for port (defaults to 8501, Railway automatically sets PORT=8080)
+# Use environment variable for port (defaults to 8501 for local, Railway automatically sets PORT=8080)
 ENV PORT=8501
 EXPOSE ${PORT}
 
