@@ -8,6 +8,7 @@ load_dotenv()
 
 API_KEY = os.environ.get("GROQ_API_KEY")
 QDRANT_HOST = os.getenv("QDRANT_HOST", "http://localhost:6333")
+QDRANT_API_KEY = os.getenv("QDRANT_API_KEY", "")
 
 # LLM model name
 LLM_MODEL_DEFAULT = "llama-3.3-70b-versatile"
@@ -17,5 +18,13 @@ EMBEDDING_MODEL = "jinaai/jina-embeddings-v2-small-en"
 EMBEDDING_DIM = 512
 
 # Qdrant client
-qd_client = QdrantClient(QDRANT_HOST)
+#qd_client = QdrantClient(QDRANT_HOST)
+qd_client = QdrantClient(
+    url=QDRANT_HOST,
+    api_key=QDRANT_API_KEY  # Automatically None if not set
+)
 collection_name = "resume-rag"
+
+print("QDRANT_HOST: ", QDRANT_HOST)
+print("QDRANT_API_KEY: ", QDRANT_API_KEY)
+print(qd_client.get_collections())
