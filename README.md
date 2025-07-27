@@ -109,7 +109,7 @@ Evaluating a Retrieval-Augmented Generation (RAG) system requires assessing both
 1. **Retrieval Evaluation**: *How good is the context you retrieve?* --> evaluates how relevant the retrieved documents are to the question.
 2. **Generation Evaluation**: *How good are the answers?* --> evaluates the generated answer based on the retrieved context.
 
-> To assess the performance of both the retrieval and RAG components, I first created a ground truth set of 95 question-answer pairs. See evaluation/rag_evaluation.ipynb for details.
+> To assess the performance of both the retrieval and RAG components, I first created a ground truth set of 95 question-answer pairs.
 
 ### 1. 🎯 Retrieval Evaluation
 
