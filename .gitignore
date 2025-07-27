@@ -9,6 +9,7 @@ test_rag.py
 results_llama-3.1-8b-instant.csv
 results_gemma2-9b-it.csv
 notebooks/*
+evaluation/rag_evaluation.ipynb
 langchain_utils.py
 Resume.docx
 *.ipynb linguist-documentation
