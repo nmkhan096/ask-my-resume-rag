@@ -5,7 +5,7 @@ This interactive Q&A app lets you query your resume using LLMs and vector search
 - *“How well does my experience match this job description?”*
 - *“Summarize my strengths for a software engineering role.”*
 
-You can explore my resume and ask questions [here](https://ask-my-resume.up.railway.app/)
+You can explore my LLM-powered resume assistant [here](https://ask-my-resume.up.railway.app/)
 
 ### ⚙️ Tech Stack:
 - **Vector DB**: Qdrant (served via Docker)
