@@ -86,10 +86,11 @@ python rag_pipeline/qdrant_setup.py \
 ```
 - notebook:
 ```
-from rag_pipeline import qdrant_setup
-qdrant_setup.setup_collection()
-qdrant_setup.ingest_documents(docs)
-qdrant_setup.create_section_index()
+from rag_pipeline.qdrant_setup import *
+docs = load_documents("data/resume_chunks.json")
+qdrant_setup.setup_collection(collection_name)
+qdrant_setup.ingest_documents(docs, collection_name, EMBEDDING_MODEL)
+qdrant_setup.create_section_index(collection_name)
 ```
 
 ### 7. Run the Streamlit app
