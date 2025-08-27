@@ -81,7 +81,8 @@ docker run -p 6333:6333 -p 6334:6334 \
 run `qdrant_setup.py` only ONCE to ingest data:
 - CLI
 ```
-python rag_pipeline/qdrant_setup.py \
+sleep 10 & \
+python -m rag_pipeline/qdrant_setup \
   --input data/resume_chunks.json
 ```
 - notebook:
